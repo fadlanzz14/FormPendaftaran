@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fadlan.css">
+    <title>Form Biodata Siswa</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Form Biodata Siswa</h1>
+        <form>
+            <label for="namaLengkap">Nama Lengkap</label>
+            <input type="text" id="namaLengkap" placeholder="Masukkan Nama Lengkap">
+
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" placeholder="Masukkan Alamat"></textarea>
+
+            <label for="tempatLahir">Tempat Lahir</label>
+            <input type="text" id="tempatLahir" placeholder="Masukkan tempat lahir">
+
+            <label for="tanggalLahir">Tanggal Lahir</label>
+            <input type="date" id="tanggalLahir">
+
+            <label for="jenisKelamin">Jenis Kelamin</label>
+            <select id="jenisKelamin">
+                <option value="LAKI-LAKI">LAKI-LAKI</option>
+                <option value="PEREMPUAN">PEREMPUAN</option>
+            </select>
+
+            <label for="hobi">Hobi</label>
+            <select id="hobi" name="hobi" required>
+                <option value="PENCAK SILAT">PENCAK SILAT</option>
+                <option value="RENANG">RENANG</option>
+                <option value="EBEG">EBEG</option>
+            </select><br></form>
+
+            <label for="kelas">Kelas</label>
+            <select id="kelas" name="kelas" required>
+                <option value="X PPLG 1">X PPLG 1</option>
+                <option value="X PPLG 2">X PPLG 2</option>
+            </select><br></form>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
